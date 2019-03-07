@@ -1,0 +1,29 @@
+{
+  "name": "quantization",
+  "version": "1.0.0",
+  "description": "量化交易，跺脚套利💨",
+  "main": "startup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteveWooo/quantization.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteveWooo/quantization/issues"
+  },
+  "homepage": "https://github.com/SteveWooo/quantization#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "config": "^3.0.1",
+    "crypto-js": "^3.1.9-1",
+    "moment": "^2.24.0",
+    "pako": "^1.0.10",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "ws": "^6.2.0"
+  }
+}
