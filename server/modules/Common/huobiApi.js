@@ -60,9 +60,9 @@ function callApi(swc, options) {
 		if(options.method === 'GET'){
 			var opt = {
 				url : url,
-				headers : headers,
-				proxy : "http://:@127.0.0.1:1080"
+				headers : headers
 			}
+			opt.proxy = "http://:@127.0.0.1:1080";
 			request(opt, (err, res, body)=>{
 				if(err){
 					console.log('error:', err);
@@ -84,8 +84,8 @@ function callApi(swc, options) {
 				url : url,
 				headers : headers,
 				body : options.body,
-				proxy : "http://:@127.0.0.1:1080"
 			}
+			opt.proxy = "http://:@127.0.0.1:1080";
 
 			request.post(opt, (err, res, body)=>{
 				if(err){
